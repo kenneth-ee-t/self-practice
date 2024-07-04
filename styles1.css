@@ -64,3 +64,21 @@ justify-self: end;
     width: 50px;
     border-radius: 40% 2%;
 }
+
+/* Practice display: grid; */
+.grid-test{
+    background-color: red;
+    display: grid;
+    grid-template-rows: 20px 20px ;
+    grid-template-columns: 20px 20px 20px 20px 20px 20px;
+
+}
+.letter-a{
+    background-color: green;
+}
+.letter-b{
+    background-color: purple;
+}
+.letter-c{
+    background-color: blue;
+}
