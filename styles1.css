@@ -68,9 +68,12 @@ justify-self: end;
 /* Practice display: grid; */
 .grid-test{
     background-color: red;
+    height: 100px;
     display: grid;
     grid-template-rows: 20px 20px ;
     grid-template-columns: 20px 20px 20px 20px 20px 20px;
+    justify-content: center;
+    align-content: center;
 
 }
 .letter-a{
